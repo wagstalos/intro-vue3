@@ -5,7 +5,7 @@ body {
   color: #282828;
 }
 
-.container{
+.container {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -156,9 +156,9 @@ p {
 .review-form {
   display: flex;
   flex-direction: column;
-  width: 425px;
+  max-width: 325px;
   padding: 20px;
-  margin: 40px;
+  margin-top: 40px;
   border: 2px solid #d8d8d8;
   background-color: white;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -218,5 +218,9 @@ ul {
 
   .review-form {
     width: 90%;
+  }
+
+  h1 {
+    font-size: 38px;
   }
 }
